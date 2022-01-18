@@ -1,0 +1,48 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "獵場",
+          "size": "lg",
+          "weight": "bold"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "A. 溪水邊",
+            "data": "2-1A"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "B. 洞穴旁",
+            "data": "2-1B"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "C. 小草原",
+            "data": "2-1C"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }

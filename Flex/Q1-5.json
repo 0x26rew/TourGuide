@@ -1,0 +1,82 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "給Dora的手寫信",
+          "size": "lg",
+          "wrap": true,
+          "weight": "bold"
+        }
+      ]
+    },
+    "hero": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "A. 你還好嗎？最近學校好像有很大的\n風波，我有聽到一些不是很好的傳聞，\n而且是關於你的…\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "size": "md",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "B. 我知道你不是那種人，就算同學們\n都不相信你，我永遠是站在你這邊的！\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "C. 雖然現在可能很痛苦也很難過，不\n過現在先安靜一陣子，希望這樣對你\n比較好，一切都會過去的，加油！\n",
+          "weight": "bold",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "A",
+            "data": "1-4A"
+          },
+          "margin": "none",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "B",
+            "data": "1-4B"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "C",
+            "data": "1-4C"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "type": "carousel",
+    "contents": [
+        {
+            "type": "bubble",
+            "size": "kilo",
+            "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "text",
+                "text": "第一章"
+                }
+            ]
+            },
+            "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "開始",
+                    "data": "start chapter 1"
+                }
+                }
+            ]
+            }
+        },
+        {
+            "type": "bubble",
+            "size": "kilo",
+            "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "text",
+                "text": "第二章"
+                }
+            ]
+            },
+            "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "開始",
+                    "data": "start chapter 2"
+                }
+                }
+            ]
+            }
+        },
+        {
+            "type": "bubble",
+            "size": "kilo",
+            "header": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "text",
+                "text": "第三章"
+                }
+            ]
+            },
+            "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+                {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "開始",
+                    "data": "start chapter 3"
+                }
+                }
+            ]
+            }
+        }
+    ]
+  }

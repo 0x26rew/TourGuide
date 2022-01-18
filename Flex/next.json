@@ -1,0 +1,18 @@
+{
+    "type": "bubble",
+    "size": "kilo",
+    "body": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+            {
+                "type": "button",
+                "action": {
+                    "type": "postback",
+                    "label": "讓我們繼續看下去",
+                    "data": "next"
+                }
+            }
+        ]
+    }
+  }

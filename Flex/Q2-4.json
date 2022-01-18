@@ -1,0 +1,82 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Junior的不滿？",
+          "size": "lg",
+          "wrap": true,
+          "weight": "bold"
+        }
+      ]
+    },
+    "hero": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "A. 功課比我好就算了，怎麼可以人氣\n比我還高？我可是未來的酋長阿！\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "size": "md",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "B. 據說她不喜歡我，反而喜歡長老那\n種鄉巴佬，真是瞎了眼！\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "C. 看她吃飯細嚼慢嚥吃半天，吃一口\n還要抿一下嘴，裝模作樣，虛偽的女\n人！\n",
+          "weight": "bold",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "A",
+            "data": "2-4A"
+          },
+          "margin": "none",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "B",
+            "data": "2-4B"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "C",
+            "data": "2-4C"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+}

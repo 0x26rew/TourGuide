@@ -1,0 +1,82 @@
+{
+    "type": "bubble",
+    "size": "mega",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "第二天，Junior看到弟弟陷阱裡的獵物...",
+          "size": "lg",
+          "wrap": true,
+          "weight": "bold"
+        }
+      ]
+    },
+    "hero": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "A. 可惡！他的陷阱怎麼可能超越我的！\n不可能！一定是運氣好而已！我就不\n信明天他還能那麼賽\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "size": "md",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "B. 可恨阿！都是因為他的刀比我利，\n所以他的陷阱殺傷力才高。我看我偷\n偷在他的陷阱上動一點手腳好了\n",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl",
+          "weight": "bold"
+        },
+        {
+          "type": "text",
+          "text": "C. 哼！他的陷阱都是這附近最好的位\n置，當然獵物比較多。那我乾脆就在\n這裡狩獵，把獵物趕跑吧\n",
+          "weight": "bold",
+          "wrap": true,
+          "offsetStart": "xxl",
+          "offsetEnd": "xxl"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "A",
+            "data": "1-2A"
+          },
+          "margin": "none",
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "B",
+            "data": "1-2B"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "C",
+            "data": "1-2C"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }
