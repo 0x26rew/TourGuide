@@ -1,14 +1,13 @@
 {
     "texts": [
-
+        { "content": "這是Junior13歲時的故事，原來他從小就會動這些心思，甚至是對自己的弟弟！Junior的傳奇中，究竟還藏著多少汙點與黑暗呢？讓我們接著看～下～去～" }
     ],
     "images": [
-
-    ],
-    "voices": [
-
-    ], 
-    "videos": [
-
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" },
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" },
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" },
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" },
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" },
+        { "url": "https://i.imgur.com/jkU8OzH.jpeg" }
     ]
 }
