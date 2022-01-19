@@ -1,4 +1,7 @@
 {
+  "type": "flex",
+  "altText": "選擇題",
+  "contents": {
     "type": "bubble",
     "size": "mega",
     "header": {
@@ -80,3 +83,4 @@
       ]
     }
   }
+}

@@ -1,4 +1,7 @@
 {
+  "type": "flex",
+  "altText": "選擇題",
+  "contents": {
     "type": "bubble",
     "size": "mega",
     "header": {
@@ -54,7 +57,7 @@
           "action": {
             "type": "postback",
             "label": "A",
-            "data": "1-4A"
+            "data": "1-5A"
           },
           "margin": "none",
           "height": "sm"
@@ -64,7 +67,7 @@
           "action": {
             "type": "postback",
             "label": "B",
-            "data": "1-4B"
+            "data": "1-5B"
           },
           "height": "sm"
         },
@@ -73,10 +76,11 @@
           "action": {
             "type": "postback",
             "label": "C",
-            "data": "1-4C"
+            "data": "1-5C"
           },
           "height": "sm"
         }
       ]
     }
+  }
 }
