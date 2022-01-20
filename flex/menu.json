@@ -4,57 +4,59 @@
     "contents": {
         "type": "bubble",
         "header": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
             {
-                "type": "text",
-                "text": "主選單",
-                "size": "xl",
-                "weight": "bold",
-                "align": "center"
+              "type": "text",
+              "text": "主選單",
+              "size": "xl",
+              "weight": "bold",
+              "align": "center"
             },
             {
-                "type": "image",
-                "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/01_1_cafe.png",
-                "size": "full",
-                "margin": "none"
+              "type": "image",
+              "url": "https://i.imgur.com/4mKPT4p.png",
+              "margin": "none",
+              "size": "full",
+              "aspectRatio": "45:30"
             }
-            ],
-            "height": "250px"
+          ],
+          "height": "210px",
+          "borderWidth": "none"
         },
         "body": {
-            "type": "box",
-            "layout": "vertical",
-            "contents": [
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
             {
-                "type": "button",
-                "action": {
+              "type": "button",
+              "action": {
                 "type": "postback",
                 "label": "嫉妒",
                 "data": "start jealous"
-                },
-                "height": "sm"
+              },
+              "height": "sm"
             },
             {
-                "type": "button",
-                "action": {
+              "type": "button",
+              "action": {
                 "type": "postback",
                 "label": "情色",
                 "data": "start erotic"
-                },
-                "height": "sm"
+              },
+              "height": "sm"
             },
             {
-                "type": "button",
-                "action": {
+              "type": "button",
+              "action": {
                 "type": "postback",
                 "label": "吸引目光",
                 "data": "start attraction"
-                },
-                "height": "sm"
+              },
+              "height": "sm"
             }
-            ]
+          ]
         }
     }
 }
