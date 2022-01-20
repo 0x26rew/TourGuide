@@ -1,0 +1,52 @@
+{
+  "type": "flex",
+  "altText": "選擇題",
+  "contents": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Junior偷什麼獵物？",
+          "size": "lg",
+          "weight": "bold"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "A. 兩頭野豬",
+            "data": "2-2A"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "B. 三頭山羌",
+            "data": "2-2B"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "C. 五條鱒魚",
+            "data": "2-2C"
+          },
+          "height": "sm"
+        }
+      ]
+    }
+  }
+}
