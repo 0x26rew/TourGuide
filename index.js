@@ -178,8 +178,7 @@ bot.on('message', async function (event) {
     } else if (event.message.text == '拯救導遊') {
       if (fsm.state == 'initial') {
         console.log('greet is ' + greet);
-        if (!greet) {
-          
+        if (!greet) {         
           let t1 = '救命！救命！請幫幫我……';
           let t2 = '啊！是來參觀的孩子們，你們可以收到我的訊息嗎？';
           let t3 = '我在看到了一分奇怪的紀錄後，突然就有人把我抓起來了，是不是這份紀錄裡有什麼蹊蹺呢？';
@@ -199,7 +198,6 @@ bot.on('message', async function (event) {
           if (event.message.text == '開門') {
             fsm.next();
             video = erotic.videos[0].url;
-
             msg = [video, button];
           } else {
             msg = '別耽誤時間了...請輸入「開門」';
@@ -723,7 +721,9 @@ bot.on('postback', async function (event) {
           fsm.next();
           audio.originalContentUrl = attraction.audios[0].url;
           audio.duration = attraction.audios[0].duration;
-          msg = [audio, back];
+          image.originalContentUrl = attraction.images[4].url;
+          image.previewImageUrl = attraction.images[4].url;
+          msg = [audio, image, back];
         }
         break;
       case 'a22':
@@ -747,7 +747,6 @@ bot.on('postback', async function (event) {
   } catch (e) {
     console.log(e);
   }
-
 });
 /*****************************************************************************/
 bot.listen('/', process.env.PORT || 5000, function () {
