@@ -721,13 +721,9 @@ bot.on('postback', async function (event) {
           fsm.next();
           audio.originalContentUrl = attraction.audios[0].url;
           audio.duration = attraction.audios[0].duration;
-          let gif = {
-            "type": "video",
-            "originalContentUrl": attraction.images[4].url,
-            "previewImageUrl": attraction.images[4].url,
-            "trackingId": "track-id"
-          }
-          msg = [audio, gif, back];
+          image.originalContentUrl = attraction.images[4].url;
+          image.previewImageUrl = attraction.images[4].url;
+          msg = [audio, image, back];
         }
         break;
       case 'a22':
