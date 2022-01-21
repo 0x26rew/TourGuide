@@ -12,11 +12,12 @@
           "type": "text",
           "text": "Junior選擇的獵場：",
           "size": "lg",
-          "weight": "bold"
+          "weight": "bold",
+          "align": "center"
         }
       ]
     },
-    "body": {
+    "footer": {
       "type": "box",
       "layout": "vertical",
       "contents": [

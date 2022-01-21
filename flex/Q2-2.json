@@ -16,7 +16,7 @@
         }
       ]
     },
-    "body": {
+    "footer": {
       "type": "box",
       "layout": "vertical",
       "contents": [

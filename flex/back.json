@@ -1,7 +1,7 @@
 {
   "type": "flex",
   "altText": "完成本章",
-  "contents":  {
+  "contents": {
     "type": "bubble",
     "size": "kilo",
     "header": {
@@ -16,6 +16,12 @@
         }
       ]
     },
+    "hero": {
+      "type": "image",
+      "url": "https://previews.123rf.com/images/carmenbobo/carmenbobo1405/carmenbobo140500011/27980724-stempel-mit-wort-komplett-innen-vektor-illustration.jpg",
+      "size": "full",
+      "aspectRatio": "2:1"
+    },
     "body": {
       "type": "box",
       "layout": "vertical",
@@ -27,9 +33,10 @@
             "label": "回到主選單",
             "data": "back"
           },
-          "style": "primary"
+          "style": "primary",
+          "height": "sm"
         }
       ]
     }
-  }
+  } 
 }

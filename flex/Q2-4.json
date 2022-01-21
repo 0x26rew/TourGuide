@@ -10,7 +10,7 @@
       "contents": [
         {
           "type": "text",
-          "text": "Junior的不滿？",
+          "text": "Junior對Dora有什麼不滿呢？",
           "size": "lg",
           "wrap": true,
           "weight": "bold"
@@ -48,7 +48,7 @@
         }
       ]
     },
-    "body": {
+    "footer": {
       "type": "box",
       "layout": "horizontal",
       "contents": [

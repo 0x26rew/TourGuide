@@ -1,62 +1,69 @@
 {
-    "type": "flex",
-    "altText": "選單",
-    "contents": {
-        "type": "bubble",
-        "header": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "text",
-              "text": "主選單",
-              "size": "xl",
-              "weight": "bold",
-              "align": "center"
-            },
-            {
-              "type": "image",
-              "url": "https://i.imgur.com/4mKPT4p.png",
-              "margin": "none",
-              "size": "full",
-              "aspectRatio": "45:30"
-            }
-          ],
-          "height": "210px",
-          "borderWidth": "none"
-        },
-        "body": {
-          "type": "box",
-          "layout": "vertical",
-          "contents": [
-            {
-              "type": "button",
-              "action": {
-                "type": "postback",
-                "label": "嫉妒",
-                "data": "start jealous"
-              },
-              "height": "sm"
-            },
-            {
-              "type": "button",
-              "action": {
-                "type": "postback",
-                "label": "情色",
-                "data": "start erotic"
-              },
-              "height": "sm"
-            },
-            {
-              "type": "button",
-              "action": {
-                "type": "postback",
-                "label": "吸引目光",
-                "data": "start attraction"
-              },
-              "height": "sm"
-            }
-          ]
+  "type": "flex",
+  "altText": "選單",
+  "contents":{
+    "type": "bubble",
+    "size": "kilo",
+    "hero": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "image",
+          "url": "https://i.imgur.com/4mKPT4p.png",
+          "margin": "none",
+          "size": "full"
         }
+      ],
+      "height": "200px"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "主選單",
+          "size": "xl",
+          "weight": "bold",
+          "align": "center"
+        }
+      ],
+      "height": "50px"
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "嫉妒",
+            "data": "start jealous"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "情色",
+            "data": "start erotic"
+          },
+          "height": "sm"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "吸引目光",
+            "data": "start attraction"
+          },
+          "height": "sm"
+        }
+      ],
+      "height": "140px"
     }
+  } 
 }
