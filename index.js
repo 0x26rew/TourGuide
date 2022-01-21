@@ -721,8 +721,9 @@ bot.on('postback', async function (event) {
       case 'a21':
         if (event.postback.data == 'next') {
           fsm.next();
-          text = attraction.texts[13].content;
-          msg = [text, back];
+          audio.originalContentUrl = attraction.audios[0].url;
+          audio.duration = attraction.audios[0].duration;
+          msg = [audio, back];
         }
         break;
       case 'a22':

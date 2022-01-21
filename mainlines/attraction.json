@@ -30,5 +30,8 @@
         { "url": "https://www.youtube.com/watch?v=F1NE3V7sKoo" },
         { "url": "https://www.youtube.com/watch?v=jxXirEOnLQg" },
         { "url": "https://www.youtube.com/watch?v=1mZYNOz9YmY" }
+    ],
+    "audios": [
+        { "url": "https://timcsy.tew.tw/data/cef/attraction_1.m4a", "duration": 49000 }
     ]
 }
